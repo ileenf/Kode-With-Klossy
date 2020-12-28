@@ -1,0 +1,121 @@
+.rectangle{
+  border: 2px solid;
+  border-color: #696969;
+  margin: 50px;
+  padding: 10px;
+  overflow: auto;
+  display: block;
+  text-align:left;
+  font-size: 20px;
+  font-family: 'Raleway', sans-serif;
+  background-color: #Df7373; 
+  text-align: center;
+
+  
+
+}
+body{
+  background-color:#E4B1AB; 
+}
+
+
+.topnav {
+  overflow: hidden;
+  background-color: #Df7373;
+  border: 3px dotted white;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: white;
+  color: red;
+}
+
+/* Style the "active" element to highlight the current page */
+.topnav a.active {
+  background-color: #E4B1AB;
+  color: white;
+}
+
+/* Style the search box inside the navigation bar */
+.topnav input[type=text] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+}
+
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+  background-color: crimson;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  text-align:center;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.accordion:hover {
+  background-color: #ccc;
+}
+
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+.accordion:after {
+  content: '\02795'; 
+  font-size: 13px;
+  color: #777;
+  float: right;
+  margin-left: 5px;
+
+}
+
+.what-photo{
+  display:block;
+  width: 200px;
+  height: 200px;
+  float: center;
+  padding: 50px;
+  border-radius: 15px;
+  object-fit: cover;
+}
+
+.what-section{
+  display:block;
+  float:right;
+  border: 2px solid;
+  border-color: #696969;
+  margin-right: 500px;
+  margin-top: 150px;
+  padding: 10px;
+  overflow: auto;
+}
+
+
+
+
